@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="header-primary Hello_World!">To Do App</h1>
+
+    <div class="ch">
+      <div>
+        <button class="modal-btn mark button primary-button">Add Task</button>
+        <button class="clear-btn btn-remove-done">Clear All Done</button>
+      </div>
+    </div>
+
+    <div class="back-drop"></div>
+    <div class="modal">
+      <div class="task-form">
+        <h2 class="header-secondary">Add Your Task</h2>
+        <div>
+          <input type="text" placeholder="Title" class="input title" />
+        </div>
+        <div>
+          <textarea
+            placeholder="Description"
+            class="input description"
+          ></textarea>
+        </div>
+        <div class="btn-box">
+          <button class="mark button primary-button add-btn">Add Task</button>
+        </div>
+      </div>
+    </div>
+    <div class="tasks-box ch">
+      <ul class="box"></ul>
+    </div>
+  </body>
+</html>
